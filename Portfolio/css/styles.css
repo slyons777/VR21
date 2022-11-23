@@ -3,10 +3,6 @@ body {
     font-family: "Helvetica", sans-serif;
 }
 
-h1 {
-    font-style: italic;
-}
-
 th {
     background-color:#556b2f;
     color: whitesmoke;

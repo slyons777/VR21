@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Box Model</title>
+        <style>
+            div {
+                margin: 2em;
+                padding: 1em;
+                background-color: lightblue;
+                color: blue;
+                outline: 1pt solid green;
+                outline-offset: 5px;
+                width: 25%;
+                box-sizing: border-box;
+                height: 10em;
+                position: static;
+            }
+
+            body {
+                position: relative;
+                font-size: 12pt;
+                /* display: flex;
+                justify-content: space-between; */
+            }
+            div:hover {
+                outline-width: 6pt;
+            }
+
+            p {
+                top: 1em;
+                position: absolute;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <div>
+            Box1
+        </div>
+
+        <div> 
+            Box2
+        </div>
+
+        <div>
+            Box3
+        </div>
+    </body>
+</html>

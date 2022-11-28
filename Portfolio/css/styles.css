@@ -1,6 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+
 body {
-    background-color:bisque;
+    position: relative;
+    background: linear-gradient(180deg, #e4b38b 0%, #fbede2 33.64%, #f4d0b8 65.49%, #c27d53 100%);
+    background-blend-mode: normal;
+    box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+  }
+
+  #projectlist {
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #projectnames {
+    color: darkslategrey;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+
+  /* div {
+    position: absolute;
+    left: 74px;
+    top: -2px;
+    width: 1293px;
+    height: 905.1px;
+    background-image: url(../images/background.jpg);
+  } */
+/*   
+#macBookPro {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 5000px;
+    background: #FFFFFF;
+} */
+
+
+.banner {
+    height: auto;
+    position: absolute;
+    align-items: center;
+    left: 180px;
+    top: 530px;
+    /* width: 1003px;
+    height: 148px; */
+    text-align: center;
+}
+
+.smallerBanner {
+    height: auto;
+    position: absolute;
+    align-items: center;
+    left: 500px;
+    top: 680px;
+    /* width: 1003px;
+    height: 148px; */
+    text-align: center;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+}
+
+.centerphoto {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+  /* #javascript {
+    position: absolute;
+    left: 285px;
+    top: 0px;
+    width: 67px;
+    height: 67px;
+    background:  url(Javascript Logo Icon.png)  no-repeat;
+  }
+
+  #pythonIcon {
+    position: absolute;
+    left: 379px;
+    top: 0px;
+    width: 68px;
+    height: 68px;
+    background:  url(Python Icon.png)  no-repeat;
+  }
+  #html5 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 68px;
+    height: 68px;
+    background:  url(Html 5 Icon.png)  no-repeat;
+  }
+
+  #cSS3Icon {
+    position: absolute;
+    left: 95px;
+    top: 0px;
+    width: 68px;
+    height: 68px;
+    background:  url(CSS3 Icon.png)  no-repeat;
+  }
+  #nodeJsIcon {
+    position: absolute;
+    left: 190px;
+    top: 0px;
+    width: 68px;
+    height: 68px;
+    background:  url(Node Js Icon.png)  no-repeat;
+  }
+  #javaIcon {
+    position: absolute;
+    left: 470.05px;
+    top: 0px;
+    width: 68px;
+    height: 68px;
+    background:  url(Java Icon.png)  no-repeat;
+  } */
+  /* #techStack {
+    position: absolute;
+    left: 1182.6px;
+    top: 957.7px;
+    width: 154px;
+    height: 59px;
+    text-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+    color: #fcfcfb;
+    font-family: raustila;
+    font-size: 42px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  } */
+
+
+  .contact {
+    position: fixed;
+    left: 179px;
+    top: 2799.4px;
+    width: 204px;
+    height: 37px;
+    text-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+    color: #faf7f6;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #resume {
+    position: absolute;
+    left: 1104px;
+    top: 2799.4px;
+    width: 204px;
+    height: 37px;
+    text-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+    color: #faf7f6;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  #projects {
+    position: absolute;
+    left: 117px;
+    top: 1182.1px;
+    width: 204px;
+    height: 37px;
+    text-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+    color: #faf7f6;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+.smallT {
+    padding-left: 15px;
+    text-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+    color: darkslategray;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+  /* #soulReads {
+  
+  } */
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#dadjokes {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+p {
+    border-color: white;
+    font-weight: 400;
+    color: darkslategray;
+    font-family: 'Helvetica';
+}
+
+/* #dadJokeMoc {
+    position: absolute;
+    left: 105px;
+    top: 1465.19px;
+    width: 278px;
+    height: 344.33px;
+    background:  url(DadJokeMockUp.png)  no-repeat;
+}
+
+  #gamepic {
+    position: absolute;
+    left: 414px;
+    top: 1415.27px;
+    width: 352.06px;
+    height: 280.55px;
+    background:  url(gamepic.png)  no-repeat;
+  }
+
+  #soulReadsM {
+    position: absolute;
+    left: 803.2px;
+    top: 1245.87px;
+    width: 533.1px;
+    height: 355.4px;
+    background:  url(SoulReadsMockUp.png)  no-repeat;
+  } */
+
+#screenShot {
+    position: absolute;
+    left: 797.95px;
+    top: 1695.77px;
+    width: 538.35px;
+    height: 536.23px;
+    background:  url(Screen Shot 2022-11-27 at 11.58.43 PM.png)  no-repeat;
+}
+
+#screenShot {
+    position: absolute;
+    left: 104px;
+    top: 1813.97px;
+    width: 641.31px;
+    height: 409px;
+    background:  url(Screen Shot 2022-11-28 at 12.00.40 AM.png)  no-repeat;
+}
+
+/* body {
+    
     font-family: "Helvetica", sans-serif;
+}
+
+.bg {
+    background-image: url('../images/background.jpg');
+    height: 25%;
+    width: 50%;
 }
 
 th {
@@ -28,4 +298,4 @@ th, td {
     box-shadow: 0 0 20px #eee;
     background-image: linear-gradient(to right, #556b2f 0%, #8cab8e 51%, #556b2f 90%);
 }
-
+ */

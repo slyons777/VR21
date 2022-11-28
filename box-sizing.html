@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing</title>
+    <style>
+        .content-box {
+            box-sizing: content-box;
+            padding: 1rem;
+            margin-bottom: 30px;
+            width: 300px;
+            border: 4px solid goldenrod;
+            background-color: blueviolet;
+        }
+
+        .border-box {
+            width: 150px;
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+            border: solid 6px forestgreen;
+            padding: 1rem;
+            background-color: bisque;
+        }
+
+        .border-box:hover {
+            opacity: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content-box">
+        <img 
+        width="100%"
+        src="https://img.freepik.com/free-photo/top-view-pepperoni-pizza-sliced-into-six-slices_141793-2157.jpg?w=826&t=st=1669659924~exp=1669660524~hmac=72b6b67b7846573bd48b9fed3f1deb9df26d3f571cf6d691d00cca3b29c3cb5b"/>
+    </div>
+
+    <div class="border-box">
+        <img
+        width="100%"
+        src="https://iamhomesteader.com/wp-content/uploads/2022/04/birria-taco-2-1024x829.jpg"/>
+
+    </div>
+    
+</body>
+</html>

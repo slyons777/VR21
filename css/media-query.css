@@ -1,0 +1,115 @@
+@media (min-width: 320) {
+    body {
+        background-color: red;
+    }
+        .resize {
+            background-color: black;
+            height: 100px;
+            width: 100px;
+        }
+
+        .move-around {
+            background-color: cornflowerblue;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 30px;
+       
+        }
+    }
+
+@media (min-width: 480) {
+    body {
+        background-color: blue;
+    }
+
+    .resize {
+        background-color: black;
+        height: 300px;
+        width: 300px;
+    }
+
+    .move-around {
+        background-color: cornflowerblue;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 50px;
+        bottom: 200px;
+    }
+}
+
+@media (min-width: 600) {
+    body {
+        background-color: purple;
+    }
+
+    .resize {
+        background-color: black;
+        height: 500px;
+        width: 500px;
+    }
+
+    .move-around {
+        background-color: cornflowerblue;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 5px;
+        bottom: 320px;
+    }
+}
+
+@media (min-width: 801) {
+    body {
+        background-color: yellow;
+    }
+
+    .resize {
+        background-color: black;
+        height: 700px;
+        width: 700px;
+    }
+
+    .move-around {
+        background-color: cornflowerblue;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 0;
+        bottom: 160px;
+    }
+}
+
+@media (min-width: 1025) {
+    body {
+        background-color: green;
+    }
+
+    .resize {
+        background-color: black;
+        height: 900px;
+        width: 900px;
+    }
+}
+
+@media (min-width: 1281) {
+    body {
+        background-color: orange;
+    }
+
+    .resize {
+        background-color: black;
+        height: 1100px;
+        width: 1100px;
+    }
+
+    .move-around {
+        background-color: cornflowerblue;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top: 60px;
+        bottom: 40px;
+    }
+}

@@ -1,3 +1,5 @@
+//javascript practice with basics
+
 console.log("Is this working");
 
 const firstName = "Sarina";
@@ -55,24 +57,16 @@ spaceship.size = "Really big"
 console.log(`Now my spaceship object has some values, it is a ${spaceship.size}, ${spaceship.color} spaceship.`)
 console.log(spaceship)
 
-
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
-// console.log("Is this working");
+const sentence = "I am new to learning JavaScript"
 
 
+console.log(sentence.slice(0,8));
+
+const string = "Hey there brown bear"
+const words = string.split(" ")
+
+console.log(words[3]) 
+
+const myString = "very"
+
+console.log(myString.replace("e","a"))

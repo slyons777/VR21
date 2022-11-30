@@ -49,6 +49,7 @@ const spaceship = {
     color: null,
     size: null
 };
+
 console.log(`Spaceship is an const, but it is an object so I can add to it later >> First print: ${spaceship}`)
 
 
@@ -57,16 +58,22 @@ spaceship.size = "Really big"
 console.log(`Now my spaceship object has some values, it is a ${spaceship.size}, ${spaceship.color} spaceship.`)
 console.log(spaceship)
 
+//slicing
 const sentence = "I am new to learning JavaScript"
-
-
 console.log(sentence.slice(0,8));
 
+//spliting
 const string = "Hey there brown bear"
 const words = string.split(" ")
-
 console.log(words[3]) 
 
+//replacing 
 const myString = "very"
-
 console.log(myString.replace("e","a"))
+//using regEx
+const day = "Monday"
+console.log(day.replace(/Mon/g, "Fri"))
+
+//concat
+const myName = "Sarina"
+console.log(myName.concat(" Lyons"))

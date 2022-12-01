@@ -77,3 +77,5 @@ console.log(day.replace(/Mon/g, "Fri"))
 //concat
 const myName = "Sarina"
 console.log(myName.concat(" Lyons"))
+
+

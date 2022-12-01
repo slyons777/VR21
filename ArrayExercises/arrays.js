@@ -27,12 +27,12 @@ const people = ["Greg", "Mary", "Devon", "James"]
 
 
 //Redefine the people variable with the value you started with. Using the splice command, remove “Devon” from the array and add “Elizabeth” and “Artie”. Your array should look like this when you are done [“Greg”, “Mary”, “Elizabeth”, “Artie”, “James”].
-people.splice(2,1, "Elizabeth", "Artie")
-console.log(people)
+// people.splice(2,1, "Elizabeth", "Artie")
+// console.log(people)
 
 
 //Create a new variable called withBob and set it equal to the people array concatenated with the string of “Bob”.
-// const withBob = people + " Bob"
+// const withBob = people.concat("Bob")
 // console.log(withBob)
 
 

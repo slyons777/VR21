@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+    </div>
+    <section id="container">
+        <ul>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ul>
+        <ol>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ol>
+    </section>
+    <div class="footer">
+    </div>
+    <script>
+        document.getElementById('container')
+
+        document.querySelector('#container')
+
+        document.querySelectorAll('.second')
+
+        document.querySelector('ol .third')
+
+        document.querySelector('#container').innerText = "Hello!"
+
+        document.querySelector('.footer').classList.add('main')
+
+        document.querySelector('.footer').classList.remove('main')
+
+        const newListItem = document.createElement('li')
+
+        newListItem.innerText = 4
+
+        document.querySelector('ul').append(newListItem)
+
+        const orderedList = document.querySelectorAll('ol > li')
+
+        for(i=0; i< orderedList.length - 1; i++) {
+            orderedList[i].style.backgroundColor = "green";
+        }
+
+
+    </script>
+</body>
+</html>

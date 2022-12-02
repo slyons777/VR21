@@ -1,9 +1,11 @@
 function RPS() {
-    let options = ["rock","paper", 'scissors']
+    
     let userOption = prompt("Rock, paper, or scissors?").toLowerCase()
     let computerOption = computerInput(Math.random())
 
-    if(!userOption || answers.indexOf(userOption) === -1){
+    let options = ["rock","paper","scissors"]
+
+    if(!userOption || options.indexOf(userOption) === -1){
         return "Please select 'Rock', 'Paper', or 'Scissors'.";
       }
 

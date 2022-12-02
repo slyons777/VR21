@@ -1,4 +1,10 @@
 function RPS() {
+    //computer option result set-up
+    const computerInput = num => {
+        if (num <= 0.33) return "rock"
+        else if (num <=66) return "paper"
+        return "scissors"
+    }
     
     let userOption = prompt("Rock, paper, or scissors?").toLowerCase()
     let computerOption = computerInput(Math.random())
@@ -9,12 +15,7 @@ function RPS() {
         return "Please select 'Rock', 'Paper', or 'Scissors'.";
       }
 
-    //computer option result set-up
-    const computerInput = num => {
-        if (num <= 0.33) return "rock"
-        else if (num <=66) return "paper"
-        return "scissors"
-    }
+    
 
     //user option result set-up
     if (userOption === computerOption) return "Looks like a TIE!"

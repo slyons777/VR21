@@ -44,11 +44,14 @@
 
         document.querySelector('ul').append(newListItem)
 
-        const orderedList = document.querySelectorAll('ol > li')
+        const orderedList = document.querySelectorAll('ol li')
 
-        for(i=0; i< orderedList.length - 1; i++) {
+        for(i=0; i< orderedList.length; i++) {
             orderedList[i].style.backgroundColor = "green";
         }
+
+        let footer = document.querySelector(".footer");
+        footer.remove();
 
 
     </script>

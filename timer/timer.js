@@ -5,7 +5,6 @@ function start() {
     if (!timerId){
         timerId = setInterval(() => {
             counter++;
-
             document.querySelector('#count').innerText = counter;
         }, 1000)
     }
@@ -15,6 +14,11 @@ function start() {
 function stop() {
     clearInterval(timerId);
     timerId = null;
+}
+
+function reset() {
+    counter = 0;
+    document.querySelector('#count').innerText = counter;
 }
 
 

@@ -1,5 +1,4 @@
 document.querySelector("#submit").addEventListener("click", (e) => {
-   debugger;
    e.preventDefault();
    const image = document.querySelector('#image').value;
    const topQuote = document.querySelector('#top-quote').value;

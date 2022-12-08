@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://127.0.0.1:5501/MemoryGame/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Memory Game</title>
+  <!-- Required meta tags -->
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  
+
+  
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css?_cacheOverride=1670462655205" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"><link rel="stylesheet" href="http://127.0.0.1:5501/MemoryGame/memorygame.css?_cacheOverride=1670462655206"></head>
+<body><div class="container">
+
+    
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <button id="play-button"><img src="./Memory Game_files/220-2200541_recommended-play-game-button-png-transparent-png.png">
+          
+        </button></div>
+      </nav>
+  </header>
+
+
+  <main>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                <img src="./Memory Game_files/blazer-mid-77-womens-shoes-NPWfjm.png" class="card-img-top" alt="...">
+            </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Memory Game_files/air-jordan-12-retro-mens-shoes-kcMcpK.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Memory Game_files/air-max-95-essential-mens-shoes-4Nzc1w.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Memory Game_files/air-jordan-1-retro-high-og-shoes-fZMprq.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Memory Game_files/air-max-95-essential-mens-shoes-4Nzc1w.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Memory Game_files/air-vapormax-plus-mens-shoes-nC0dzF.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Memory Game_files/air-force-1-07-premium-mens-shoes-jTLc6j.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Memory Game_files/air-jordan-12-retro-mens-shoes-kcMcpK.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Memory Game_files/air-force-1-07-premium-mens-shoes-jTLc6j.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Memory Game_files/air-jordan-1-retro-high-og-shoes-fZMprq.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Memory Game_files/blazer-mid-77-womens-shoes-NPWfjm.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="./Memory Game_files/air-vapormax-plus-mens-shoes-nC0dzF.png" class="card-img-top" alt="...">
+                </div>
+            </div>
+
+            
+        </div>
+    
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="./Memory Game_files/popper.min.js.download" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="./Memory Game_files/bootstrap.min.js.download" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script src="./Memory Game_files/memorygame.js.download"></script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</div>
+
+</body></html>

@@ -57,10 +57,3 @@ document.querySelector("#delete-button").addEventListener("click", (e) => {
     deleteButtons.forEach(button => button.addEventListener('click', deleteCard));
    
 });
-
-// // delete post action
-// document.querySelector("#delete-button").addeEventListener("click", (e) => {
-//     e.preventDefault();
-    
-    
-// })

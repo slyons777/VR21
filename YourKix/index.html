@@ -41,35 +41,35 @@
           <h1 class="display-1">Your Kix!</h1>
         <nav class="navbar">
           <div class="container"> 
-             
-                <form class="d-flex" role="search">
+           
+              <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <button class="btn btn-outline-success" id="search-button" type="submit">Search</button>
               </form>
-             
+      
               <!-- Button trigger modal -->
               <button
-              id="add-button"
+              id="add-post"
               type="button"
               class="btn btn-primary"
               data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-            > Add New Kix!
-          </button>
+              data-bs-target="#addButtonModal"
+              > Add New Kix!
+            </button>
               
            
             <!-- Modal -->
             <div
               class="modal fade"
-              id="exampleModal"
+              id="addButtonModal"
               tabindex="-1"
-              aria-labelledby="exampleModalLabel"
+              aria-labelledby="addButtonModal"
               aria-hidden="true"
             >
               <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    <h1 class="modal-title">
                       Upload your kix pic!
                     </h1>
                     <button
@@ -137,7 +137,7 @@
                     >
                       Close
                     </button>
-                    <button type="button" class="btn btn-primary" id="add-post">Post</button>
+                    <button type="button" class="btn btn-primary" id="post">Post</button>
                   </div>
                 </div>
               </div>
@@ -155,13 +155,13 @@
           class="modal fade"
           id="updateModal"
           tabindex="-1"
-          aria-labelledby="exampleModalLabel"
+          aria-labelledby="updateModal"
           aria-hidden="true"
         >
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                <h1 class="modal-title" id="updateModalTitle">
                   Edit Post
                 </h1>
                 <button
@@ -228,13 +228,13 @@
           class="modal fade"
           id="deleteModal"
           tabindex="-1"
-          aria-labelledby="exampleModalLabel"
+          aria-labelledby="deleteModal"
           aria-hidden="true"
         >
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                <h1 class="modal-title" id="deleteModalTitle">
                   Delete Post
                 </h1>
                 <button
@@ -255,7 +255,7 @@
                 >
                   Cancel
                 </button>
-                <button type="button" id="delete-button" class="btn btn-primary">Yes, I'm sure</button>
+                <button type="button" id="delete-button" class="btn btn-danger">Yes, I'm sure</button>
               </div>
             </div>
           </div>
@@ -275,11 +275,11 @@
       crossorigin="anonymous"
     ></script>
 
-    <script>
+    <!-- <script>
       document.querySelector("#add-button").addEventListener("click", (e) => {
         console.log("Add new shoe");
       })
-    </script>
+    </script> -->
 
     <script src="./yourkix.js"></script>
   </body>

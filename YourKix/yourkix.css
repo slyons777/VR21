@@ -59,11 +59,18 @@ button.btn.btn-outline-success {
     font-size: 30px;
 }
 
+#deleteModalTitle {
+    font-size: 30px;
+}
 
 .modal-dialog{
     color: #5429b7;
-    font-size:18px;
+
     font-family: 'Bebas Neue', cursive;
+}
+
+.modal-footer {
+    justify-content: center;
 }
 
 
@@ -96,15 +103,15 @@ div {
     outline: black;
 }
 
-button#add-button.btn.btn-primary {
-    color: white;
-    font-size: 25px;
+button#add-post.btn.btn-primary {
+    font-size: 20px;
+    border-color: coral;
     
 }
 
 button.btn.btn-primary {
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 3px;
     outline: black ;
     background-color: #5429b7;
